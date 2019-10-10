@@ -1,0 +1,19 @@
+{
+  "name": "online-payroll-system",
+  "version": "1.0.0",
+  "description": "Fictional company's payroll system for employees",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikenwaa/online-payroll-system-2.git"
+  },
+  "author": "Augustine Ikenwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikenwaa/online-payroll-system-2/issues"
+  },
+  "homepage": "https://github.com/ikenwaa/online-payroll-system-2#readme"
+}
