@@ -1,9 +1,6 @@
-/* .carousel-item {
-  background-image: linear-gradient(rgba(85, 85, 85, 0.57), rgba(0, 0, 0, 0.7)),
-    url(https://images.pexels.com/photos/990818/pexels-photo-990818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  height: 90vh;
-  min-width: 100%;
-} */
+.navbar-brand{
+  font-size: 1.5rem;
+}
 
 .form-background {
   background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)),
@@ -12,14 +9,17 @@
   width: auto;
 }
 
-.jumbotron{
-  background-image: linear-gradient(rgba(85, 85, 85, 0.57), rgba(0, 0, 0, 0.37)),url(https://images.pexels.com/photos/3305/numbers-money-calculating-calculation.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+.landing{
+  background-image: linear-gradient(rgba(85, 85, 85, 0.57), rgba(0, 0, 0, 0.37)),url(https://images.pexels.com/photos/210179/pexels-photo-210179.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: contain;
   color: white;
+  height: 90vh;
+  width: auto;
 }
 
-.navbar{
+/* .navbar{
   color: white;
-}
+} */
 /* .header-text {
   position: absolute;
   top: -254px;
