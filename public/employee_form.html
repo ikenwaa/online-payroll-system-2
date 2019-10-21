@@ -41,71 +41,87 @@
         </div>
       </nav>
 
-      <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-      <div class="container m-auto">
-        <p class="text-center display-4 m-1">
-          Fill in your correct details in this form.
-        </p>
+      <div class="container card mt-4" style="width: 30rem;">
+        <div class="card-body">
+          <h5 class="card-title text-center m-3">
+            Fill in your correct details in this form.
+          </h5>
+          <form class="container m-auto">
+            <div class="form-col">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  placeholder="First name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder="Last name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Phone number"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputAddress">Department</label>
+              <select id="dept-selection" class="form-control">
+                <option selected>Pick your department</option>
+                <option value="">Software Engineering</option>
+                <option value="">Quality Assurance</option>
+                <option value="">Human Resources</option>
+                <option value="">Product Design</option>
+                <option value="">Finance</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="inputAddress">Position</label>
+              <select id="pos-selection" class="form-control">
+                <option selected>Pick your position</option>
+                <option value="" id="1"></option>
+                <option value="" id="2"></option>
+                <option value="" id="3"></option>
+                <option value="" id="4"></option>
+                <option value="" id="5"></option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Subscribe to email alerts
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary m-2">Submit</button>
+          </form>
+        </div>
       </div>
-
-      <form class="container m-auto">
-  <div class="form-col">
-    <div class="form-group">
-      <input type="text" class="form-control" id="firstName" placeholder="First name">
-    </div>
-    <div class="form-group">
-      <input type="text" class="form-control" id="lastName" placeholder="Last name">
-    </div>
-    <div class="form-group">
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-    </div>
-    <div class="form-group">
-      <input type="number" class="form-control" id="inputEmail4" placeholder="Phone number">
-    </div>
-  </div>
-  
-  <div class="form-row">
-    <div class="form-group col-md-6">
-    <label for="inputAddress">Department</label>
-    <select id="dept-selection" class="form-control">
-      <option selected>Pick your department</option>
-      <option value="">Software Engineering</option>
-      <option value="">Quality Assurance</option>
-      <option value="">Human Resources</option>
-      <option value="">Product Design</option>
-      <option value="">Finance</option>
-    </select>
-  </div>
-
-    <div class="form-group col-md-6">
-    <label for="inputAddress">Position</label>
-    <select id="pos-selection" class="form-control">
-      <option selected>Pick your position</option>
-      <option value="" id="1"></option>
-      <option value="" id="2"></option>
-      <option value="" id="3"></option>
-      <option value="" id="4"></option>
-      <option value="" id="5"></option>
-    </select>
-  </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Subscribe to email alerts
-      </label>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary m-2">Submit</button>
-</form>
     </div>
 
     <script
