@@ -1,0 +1,21 @@
+{
+  "employees_data": [
+    {
+      "firstName": "Augustine",
+      "lastName": "Ikenwa",
+      "email": "ajohn9353@gmail.com",
+      "department": "Software Engineering",
+      "phoneNum": "07032469999",
+      "role": "Associate I",
+      "salary": "70000",
+      "paymentStatus": "false",
+      "id": 1
+    }
+  ],
+  "adminLogin": [
+    {
+      "username": "washam-admin123",
+      "password": "password123"
+    }
+  ]
+}

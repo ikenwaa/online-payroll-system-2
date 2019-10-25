@@ -10,6 +10,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style/bootstrap.min.css" />
     <title>Admin Login</title>
   </head>
   <body>
@@ -36,15 +37,15 @@
             <div class="card-title text-center">
               <h5>Login to Washam's payroll dashboard.</h5>
             </div>
-            <form>
+            <form id="login">
               <div class="form-group">
-                <label for="exampleInputLogin">Login</label>
+                <label name="username" for="exampleInputLogin">Username</label>
                 <input
                   type="email"
                   class="form-control"
-                  id="exampleInputLogin"
+                  id="username"
                   aria-describedby="loginHelp"
-                  placeholder="Login"
+                  placeholder="Username"
                 />
                 
               </div>
@@ -53,12 +54,12 @@
                 <input
                   type="password"
                   class="form-control"
-                  id="exampleInputPassword1"
+                  id="password"
                   placeholder="Password"
                 />
               </div>
               <div class="text-center m-auto">
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn btn-primary" id="loginBtn">
                   Submit
                 </button>
               </div>
@@ -69,14 +70,12 @@
       </div>
     </div>
 
-    <script>
-      
-    </script>
-    <script
+    <script src="./script/jquery-min.js"></script>
+    <!-- <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -87,5 +86,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="./script/login.js"></script>
   </body>
 </html>
